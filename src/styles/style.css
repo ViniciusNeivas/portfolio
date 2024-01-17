@@ -245,3 +245,137 @@ section{
 .social-icons a.instagram:hover{
     background-color: #aa00da;
 } 
+
+/* SOBRE */
+
+.header {
+    font-size: 3.5rem;
+    color:  #202020;
+    font-weight:800;
+    text-align: center;
+}
+
+.header span {
+    color: #7303a7;
+}
+
+.about-me {
+    background: #ffffff;
+}
+
+.aboute-me .line {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 4rem;
+}
+
+.about-me .line .about-me-image {
+    text-align: center;
+    flex: 1 1 35rem;
+}
+
+.about-me .line .about-me-image img {
+    margin: 4rem;
+    width:30rem;
+    height: auto;
+    border-radius: 5%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);    
+    mix-blend-mode: luminosity;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.about-me .line .about-me-image img:hover {
+    mix-blend-mode:normal;
+}
+
+.about-me .line .about-me-content {
+    flex: 1 1 45rem;
+    padding: 3rem;
+}
+
+.about-me .line .about-me-content h3 {
+    color:#1b1b1b;
+    font-size: 2.5rem;
+}
+
+.about-me .line .about-me-content .tag {
+    font-size: 1.4rem;
+    color:#020133;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.about-me .line .about-me-content p {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    font-family: "Nunito";
+    font-weight: 600;
+    text-transform: none;
+}
+
+.about-me .line .about-me-content .box-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    font-family: "Nunito";
+    font-weight: 600;
+}
+
+.about-me .line .about-me-content .box-content .box p {
+    text-decoration: none;
+    font-size: 1.5rem; 
+}
+
+.about-me .line .about-me-content .box-content .box p span {
+    font-size: 1.5rem; 
+    color: #011aff;
+}
+
+.resume-download {
+    margin-top: 6rem;
+}
+
+.resume-download .resume-btn {
+    /* margin-top: 1rem; */
+    position: absolute;
+    line-height: 0;
+    padding: 1.6rem 3rem;
+    border-radius: 4rem;
+    transition: 0.5s;
+    color:#ffffff;
+    background: #2506ad;
+    box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
+    font-family: "Nunito", sans-serif;
+}
+
+.resume-download .resume-btn span {
+    font-weight: 700;
+    font-size: 1.7rem;
+    letter-spacing: 0.1rem;
+}
+
+.resume-download .resume-btn i{
+    margin-left: 0.3rem;
+    font-size: 1.7rem;
+    transition: 0.3s;
+}
+
+.resume-download .resume-btn:hover {
+    background: #ca7404;
+}
+
+.resume-download .resume-btn:hover i {
+    transform: translateX(5px);
+}
+
+
+
+
+
+
+
+
+
