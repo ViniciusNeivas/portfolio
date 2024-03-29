@@ -380,11 +380,14 @@ section{
 }
 
 .skills h2   {
+    font-size:2rem;
     color: #ffffff;
+    text-align:center;
 }
 
 .skills .skills-header span {
     color: rgb(255, 230, 0);
+    font-size:2rem;
 }
 
 .skills .skills-content {
@@ -423,6 +426,7 @@ section{
 .skills .skills-content .skills-bar:hover {
     box-shadow: 0 8px 10px rgba(0, 2, 68 , 0.8) !important;
     background-color: rgba(0, 0, 0 , 0.9) !important;
+    /* cursor:pointer; */
 }
 
 .skills .skills-content .skills-bar .skills-info {
@@ -436,7 +440,7 @@ section{
 .skills .skills-content .skills-bar .skills-info i {
     font-size: 2rem;
 }
-
+  
 .skills .skills-content .skills-bar .skills-info span {
     font-size: 2rem;
     font-weight: 500;
